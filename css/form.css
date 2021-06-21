@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  font-size: 16px;
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+#login-box {
+  position: relative;
+  margin: 2% auto;
+  width: 600px;
+  height: 490px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 5px;
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+.empty{
+  height: 140px;
+}
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background: url("https://goo.gl/YbktSj");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+.right .uploadgambar {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+}
+
+.wrap-head{
+  width: 100%;
+  max-height: 100px;
+  overflow: hidden;
+  background: white;
+}
+.logo-puxo{
+  width: 20%;
+  height: 80%;
+  margin: 10px 20px;
+  float: left;
+}
+.logo-puxo img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.message a {
+  color: #4caf50;
+  text-decoration: none;
+}
+.profile{
+  float: right;
+  width: 10%;
+  height: 80%;
+  margin: 10px 20px;
+}
+.profile img{
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 50%;
+  
+}
+.menu-utama{
+  text-align: right;
+  width: 90%;
+  margin: 40px 20px;
+}
+.menu-utama ul{
+  margin: auto;
+  display: block;
+}
+.menu-utama ul li{
+  display: inline;
+  list-style: none;
+  margin-inline: 10px;
+}
+.menu-utama ul li a{
+color: black;
+text-decoration: none;
+  padding: 30px 25px;
+}
+.menu-utama ul li:hover a{
+  background-color: rgb(235, 235, 235);
+}
